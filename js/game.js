@@ -1,7 +1,7 @@
 var config = {
     'width': 1280,
     'height': 908,
-    'renderer': Phaser.CANVAS,
+    'renderer': Phaser.AUTO,
     'parent': 'phaser-game',
     'resolution': window.devicePixelRatio,
     'state': { preload: preload, create: create, update: update, render: render }
